@@ -1,0 +1,128 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app1.f5k8s.net
+  namespace: apps
+  annotations:
+    appprotect.f5.com/app-protect-policy: "app1"
+    appprotect.f5.com/app-protect-enable: "True"
+    appprotect.f5.com/app-protect-security-log-enable: "True"
+    appprotect.f5.com/app-protect-security-log: "logconf"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+spec:
+  ingressClassName: nginx-plus
+  rules:
+  - host: app1.f5k8s.net
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app1-svc
+            port:
+              number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app2.f5k8s.net
+  namespace: apps
+  annotations:
+    appprotect.f5.com/app-protect-policy: "app2"
+    appprotect.f5.com/app-protect-enable: "True"
+    appprotect.f5.com/app-protect-security-log-enable: "True"
+    appprotect.f5.com/app-protect-security-log: "logconf"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+spec:
+  ingressClassName: nginx-plus
+  rules:
+  - host: app2.f5k8s.net
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app2-svc
+            port:
+              number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app3.f5k8s.net
+  namespace: apps
+  annotations:
+    appprotect.f5.com/app-protect-policy: "app3"
+    appprotect.f5.com/app-protect-enable: "True"
+    appprotect.f5.com/app-protect-security-log-enable: "True"
+    appprotect.f5.com/app-protect-security-log: "logconf"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+spec:
+  ingressClassName: nginx-plus
+  rules:
+  - host: app3.f5k8s.net
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app3-svc
+            port:
+              number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app4.f5k8s.net
+  namespace: apps
+  annotations:
+    appprotect.f5.com/app-protect-policy: "app4"
+    appprotect.f5.com/app-protect-enable: "True"
+    appprotect.f5.com/app-protect-security-log-enable: "True"
+    appprotect.f5.com/app-protect-security-log: "logconf"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+spec:
+  ingressClassName: nginx-plus
+  rules:
+  - host: app4.f5k8s.net
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app4-svc
+            port:
+              number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app5.f5k8s.net
+  namespace: apps
+  annotations:
+    appprotect.f5.com/app-protect-policy: "app5"
+    appprotect.f5.com/app-protect-enable: "True"
+    appprotect.f5.com/app-protect-security-log-enable: "True"
+    appprotect.f5.com/app-protect-security-log: "logconf"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+spec:
+  ingressClassName: nginx-plus
+  rules:
+  - host: app5.f5k8s.net
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app5-svc
+            port:
+              number: 80

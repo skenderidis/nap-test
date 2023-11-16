@@ -1,0 +1,180 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1 
+  template:
+    metadata:
+      labels:
+        app: app1 
+    spec:
+      containers:
+      - name: app1 
+        image: nginxdemos/hello:plain-text
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app1-svc
+  namespace: apps
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: app1
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app2
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app2 
+  template:
+    metadata:
+      labels:
+        app: app2 
+    spec:
+      containers:
+      - name: app2 
+        image: nginxdemos/hello:plain-text
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app2-svc
+  namespace: apps
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: app2
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app3
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app3 
+  template:
+    metadata:
+      labels:
+        app: app3 
+    spec:
+      containers:
+      - name: app3 
+        image: nginxdemos/hello:plain-text
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app3-svc
+  namespace: apps
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: app3
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app4
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app4 
+  template:
+    metadata:
+      labels:
+        app: app4 
+    spec:
+      containers:
+      - name: app4 
+        image: nginxdemos/hello:plain-text
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app4-svc
+  namespace: apps
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: app4
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app5
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app5 
+  template:
+    metadata:
+      labels:
+        app: app5 
+    spec:
+      containers:
+      - name: app5 
+        image: nginxdemos/hello:plain-text
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app5-svc
+  namespace: apps
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: app5
+---
+

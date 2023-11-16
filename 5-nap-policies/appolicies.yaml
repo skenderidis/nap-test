@@ -1,0 +1,68 @@
+apiVersion: appprotect.f5.com/v1beta1
+kind: APPolicy
+metadata:
+  name: app1
+  namespace: apps
+spec:
+  policy:
+    applicationLanguage: utf-8
+    enforcementMode: blocking
+    name: app1
+    template:
+      name: POLICY_TEMPLATE_NGINX_BASE
+
+---
+apiVersion: appprotect.f5.com/v1beta1
+kind: APPolicy
+metadata:
+  name: app2
+  namespace: apps
+spec:
+  policy:
+    applicationLanguage: utf-8
+    enforcementMode: blocking
+    name: app2
+    template:
+      name: POLICY_TEMPLATE_NGINX_BASE
+
+---
+apiVersion: appprotect.f5.com/v1beta1
+kind: APPolicy
+metadata:
+  name: app3
+  namespace: apps
+spec:
+  policy:
+    applicationLanguage: utf-8
+    enforcementMode: blocking
+    name: app3
+    template:
+      name: POLICY_TEMPLATE_NGINX_BASE
+
+---
+apiVersion: appprotect.f5.com/v1beta1
+kind: APPolicy
+metadata:
+  name: app4
+  namespace: apps
+spec:
+  policy:
+    applicationLanguage: utf-8
+    enforcementMode: blocking
+    name: app4
+    template:
+      name: POLICY_TEMPLATE_NGINX_BASE
+
+---
+apiVersion: appprotect.f5.com/v1beta1
+kind: APPolicy
+metadata:
+  name: app5
+  namespace: apps
+spec:
+  policy:
+    applicationLanguage: utf-8
+    enforcementMode: blocking
+    name: app5
+    template:
+      name: POLICY_TEMPLATE_NGINX_BASE
