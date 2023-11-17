@@ -4,6 +4,12 @@ info:
   description: "DataServices API"
   version: "1.0.0"
 paths:
+  /
+    get:
+      description: Returns stuff              
+      responses:
+        '200':
+          description: Successful response
   /api/Schemes:
     get:
       tags:
