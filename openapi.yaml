@@ -38,7 +38,23 @@ paths:
               schema:
                 type: "array"
                 items:
-                  $ref: "#/components/schemas/DatasetCatalogItemDto"          
+                  $ref: "#/components/schemas/DatasetCatalogItemDto"
+  /survey:
+    post:
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                name:          
+                  type: string
+                fav_number:    
+                  type: integer
+              required:
+                - name
+                - email             
   /api/Schemes/{schemeId}/ReportCatalogItems:
     get:
       tags:
