@@ -10,7 +10,7 @@ paths:
       responses:
         '200':
           description: Successful response
-     head:
+    head:
       description: Returns a list of stuff              
       responses:
         '200':
