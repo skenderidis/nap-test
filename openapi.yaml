@@ -1,0 +1,1094 @@
+openapi: 3.0.0
+info:
+  title: "DataServices API"
+  description: "DataServices API"
+  version: "1.0.0"
+paths:
+  /:
+    get:
+      description: Returns a list of stuff              
+      responses:
+        '200':
+          description: Successful response      
+  /api/Schemes:
+    get:
+      tags:
+      - "Schemes"
+      operationId: "Schemes_GetSchemes"
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/SchemeDto"
+  /api/Schemes/{schemeId}/DatasetCatalogItems:
+    get:
+      tags:
+      - "Schemes"
+      operationId: "Schemes_GetDatasetCatalogItems"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/DatasetCatalogItemDto"
+  /survey:
+    post:
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                name:          
+                  type: string
+                fav_number:    
+                  type: integer
+              required:
+                - name
+                - email             
+  /api/Schemes/{schemeId}/ReportCatalogItems:
+    get:
+      tags:
+      - "Schemes"
+      operationId: "Schemes_GetReportCatalogItems"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/ReportCatalogItemDto"
+  /api/Schemes/{schemeId}/DatasetCatalogItems/{catalogItemId}:
+    get:
+      tags:
+      - "Schemes"
+      operationId: "Schemes_GetDatasetCatalogItemDetails"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      - name: "catalogItemId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 2
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DatasetCatalogItemDetailDto"
+  /api/Content/link:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve information about hyperlinks"
+      operationId: "Content_GetLink"
+      parameters:
+      - name: "id"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LinkDto"
+  /api/Content/linkgroup:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve information about hyperlink groups."
+      operationId: "Content_GetLinkGroup"
+      parameters:
+      - name: "groupId"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/LinkDto"
+  /api/Content/page:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve information about a page"
+      operationId: "Content_GetPageContent"
+      parameters:
+      - name: "pageId"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageDto"
+  /api/Content/pagegroup:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve information about a group of pages"
+      operationId: "Content_GetPageGroup"
+      parameters:
+      - name: "groupId"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/PageDto"
+  /api/Content/banner:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve the banner information for a page"
+      operationId: "Content_GetBanner"
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BannerDto"
+  /api/Content/pagefragment:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve a page fragment"
+      operationId: "Content_GetPageFragment"
+      parameters:
+      - name: "fragmentId"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageFragmentDto"
+  /api/Content/article:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieves Articles"
+      operationId: "Content_GetArticles"
+      parameters:
+      - name: "groupId"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/ArticleDto"
+  /api/Content/actions:
+    get:
+      tags:
+      - "Content"
+      summary: "Retrieve multiple actions"
+      operationId: "Content_GetActions"
+      parameters:
+      - name: "groupId"
+        in: "query"
+        schema:
+          type: "string"
+          nullable: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/ActionDto"
+  /api/APICatalog/APICatalogItems:
+    get:
+      tags:
+      - "APICatalog"
+      operationId: "APICatalog_GetAPICatalogItems"
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/APICatalogItemDto"
+  /api/Dataset/schemes/{schemeId}/datasets/{datasetId}:
+    get:
+      tags:
+      - "Dataset"
+      operationId: "Dataset_GetDataset"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      - name: "datasetId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 2
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DatasetResultDto"
+        "400":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProblemDetails"
+        "401":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProblemDetails"
+        "500":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProblemDetails"
+  /api/Dataset/{schemeId}/dataset/{datasetId}/grid/{gridRequest}:
+    post:
+      tags:
+      - "Dataset"
+      operationId: "Dataset_PostDatasetGrid"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      - name: "datasetId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 2
+      - name: "gridRequest"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 3
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DatasetGridResultDto"
+  /api/Dataset/{schemeId}/dataset/{datasetId}/csv:
+    get:
+      tags:
+      - "Dataset"
+      operationId: "Dataset_GetCSVFile"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      - name: "datasetId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 2
+      responses:
+        "200":
+          description: ""
+          content:
+            application/octet-stream:
+              schema:
+                type: "string"
+                format: "binary"
+  /api/Dataset/{schemeId}/dataset/{datasetId}.{format}:
+    get:
+      tags:
+      - "Dataset"
+      operationId: "Dataset_GetFile"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      - name: "datasetId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 2
+      - name: "format"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 3
+      responses:
+        "200":
+          description: ""
+          content:
+            application/octet-stream:
+              schema:
+                type: "string"
+                format: "binary"
+  /api/ODataDataset/{schemeId}/dataset/{datasetId}:
+    get:
+      tags:
+      - "ODataDataset"
+      operationId: "ODataDataset_GetDataRowDtos"
+      parameters:
+      - name: "schemeId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      - name: "datasetId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 2
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/DatasetODataRowDto"
+  /api/ApiKey/{productId}:
+    get:
+      tags:
+      - "ApiKey"
+      operationId: "ApiKey_GetApiKeys"
+      parameters:
+      - name: "productId"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/octet-stream:
+              schema:
+                type: "string"
+                format: "binary"
+  /api/ApiKey/generate:
+    post:
+      tags:
+      - "ApiKey"
+      operationId: "ApiKey_GenerateAPIKeys"
+      requestBody:
+        x-name: "command"
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/APIKeysCommand"
+        required: true
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/octet-stream:
+              schema:
+                type: "string"
+                format: "binary"
+  /api/Swagger/{id}:
+    get:
+      tags:
+      - "Swagger"
+      operationId: "Swagger_GetSwaggerDoc"
+      parameters:
+      - name: "id"
+        in: "path"
+        required: true
+        schema:
+          type: "string"
+        x-position: 1
+      responses:
+        "200":
+          description: ""
+          content:
+            application/octet-stream:
+              schema:
+                type: "string"
+                format: "binary"
+components:
+  schemas:
+    SchemeDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        description:
+          type: "string"
+          nullable: true
+        datasetCatalog:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/DatasetCatalog"
+        reportCatalog:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ReportCatalog"
+    DatasetCatalog:
+      type: "object"
+      additionalProperties: false
+      properties:
+        datasetCatalogItems:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/DatasetCatalogItem"
+    DatasetCatalogItem:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        description:
+          type: "string"
+          nullable: true
+    ReportCatalog:
+      type: "object"
+      additionalProperties: false
+      properties:
+        reportCatalogItems:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/ReportCatalogItem"
+    ReportCatalogItem:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        description:
+          type: "string"
+          nullable: true
+    DatasetCatalogItemDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        description:
+          type: "string"
+          nullable: true
+    ReportCatalogItemDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        description:
+          type: "string"
+          nullable: true
+    DatasetCatalogItemDetailDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        description:
+          type: "string"
+          nullable: true
+        lastUpdated:
+          type: "string"
+          format: "date-time"
+          nullable: true
+        periodCoveredStart:
+          type: "string"
+          format: "date-time"
+          nullable: true
+        periodCoveredEnd:
+          type: "string"
+          format: "date-time"
+          nullable: true
+        updateFrequency:
+          type: "string"
+          nullable: true
+        hideMetadata:
+          type: "boolean"
+        columns:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/DatasetCatalogColumn"
+        downloadableArtifacts:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/DownloadableArtifact"
+        additionalDatasetInformation:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/AdditionalDatasetInformation"
+    DatasetCatalogColumn:
+      type: "object"
+      additionalProperties: false
+      properties:
+        name:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        shortDescription:
+          type: "string"
+          nullable: true
+        fullDescription:
+          type: "string"
+          nullable: true
+        visibleInGrid:
+          type: "boolean"
+        keyColumn:
+          type: "boolean"
+        keyColumnDisplay:
+          type: "boolean"
+        dataType:
+          type: "string"
+          nullable: true
+        details:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/DatasetCatalogColumnDetail"
+    DatasetCatalogColumnDetail:
+      type: "object"
+      additionalProperties: false
+      properties:
+        name:
+          type: "string"
+          nullable: true
+        value:
+          type: "string"
+          nullable: true
+    DownloadableArtifact:
+      type: "object"
+      additionalProperties: false
+      properties:
+        format:
+          type: "string"
+          nullable: true
+        path:
+          type: "string"
+          nullable: true
+        fileSizeInBytes:
+          type: "integer"
+          format: "int64"
+    AdditionalDatasetInformation:
+      type: "object"
+      additionalProperties: false
+      properties:
+        licence:
+          type: "string"
+          nullable: true
+        jurisdiction:
+          type: "string"
+          nullable: true
+        geographicCoverage:
+          type: "string"
+          nullable: true
+        organisation:
+          type: "string"
+          nullable: true
+        authorityForCollectingData:
+          type: "string"
+          nullable: true
+        sourceUri:
+          type: "string"
+          nullable: true
+    LinkDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        displayText:
+          type: "string"
+          nullable: true
+        url:
+          type: "string"
+          nullable: true
+        groupId:
+          type: "string"
+          nullable: true
+        id:
+          type: "string"
+          nullable: true
+        order:
+          type: "number"
+          format: "decimal"
+        isExternalLink:
+          type: "boolean"
+    PageDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        slug:
+          type: "string"
+          nullable: true
+        title:
+          type: "string"
+          nullable: true
+        body:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBodyDto"
+        summary:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBodyDto"
+        callOuts:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/CallOutDto"
+    ContentBodyDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        isHtml:
+          type: "boolean"
+        content:
+          type: "string"
+          nullable: true
+    CallOutDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        title:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBody"
+        type:
+          type: "string"
+          nullable: true
+        body:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBody"
+        order:
+          type: "integer"
+          format: "int32"
+        showIcon:
+          type: "boolean"
+        iconPath:
+          type: "string"
+          nullable: true
+    ContentBody:
+      type: "object"
+      additionalProperties: false
+      properties:
+        isHtml:
+          type: "boolean"
+        content:
+          type: "string"
+          nullable: true
+    BannerDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        leftText:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBodyDto"
+        rightText:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBodyDto"
+        mobileLeftText:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBodyDto"
+        mobileRightText:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBodyDto"
+    PageFragmentDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+        fragmentBody:
+          $ref: "#/components/schemas/ContentBodyDto"
+        pageId:
+          type: "string"
+          nullable: true
+    ArticleDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        articleTitle:
+          type: "string"
+        description:
+          type: "string"
+          nullable: true
+        link:
+          type: "string"
+        imageLink:
+          type: "string"
+        isExternalLink:
+          type: "boolean"
+        order:
+          type: "integer"
+          format: "int32"
+        groupId:
+          type: "string"
+    ActionDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        schemeName:
+          type: "string"
+          nullable: true
+        name:
+          type: "string"
+          nullable: true
+        description:
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/ContentBody"
+        link:
+          type: "string"
+          nullable: true
+        isExternalLink:
+          type: "boolean"
+        order:
+          type: "integer"
+          format: "int32"
+        isActive:
+          type: "boolean"
+        groupId:
+          type: "string"
+          nullable: true
+    APICatalogItemDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        displayName:
+          type: "string"
+          nullable: true
+        id:
+          type: "string"
+          nullable: true
+        parentId:
+          type: "string"
+          nullable: true
+        type:
+          $ref: "#/components/schemas/ContentType"
+        contentfulId:
+          type: "string"
+          nullable: true
+        swaggerDisplayName:
+          type: "string"
+          nullable: true
+        items:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/APICatalogItemDto"
+    ContentType:
+      type: "integer"
+      description: ""
+      x-enumNames:
+      - "Page"
+      - "Link"
+      - "APIKeyPage"
+      - "SwaggerPage"
+      enum:
+      - 0
+      - 1
+      - 2
+      - 3
+    DatasetResultDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        continuationToken:
+          type: "string"
+          nullable: true
+        name:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        columns:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/DatasetResultColumn"
+    DatasetResultColumn:
+      type: "object"
+      additionalProperties: false
+      properties:
+        name:
+          type: "string"
+          nullable: true
+        displayName:
+          type: "string"
+          nullable: true
+        columnType:
+          type: "string"
+          nullable: true
+        values:
+          type: "array"
+          nullable: true
+          items: {}
+    ProblemDetails:
+      type: "object"
+      additionalProperties:
+        nullable: true
+      properties:
+        type:
+          type: "string"
+          nullable: true
+        title:
+          type: "string"
+          nullable: true
+        status:
+          type: "integer"
+          format: "int32"
+          nullable: true
+        detail:
+          type: "string"
+          nullable: true
+        instance:
+          type: "string"
+          nullable: true
+    DatasetGridResultDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        groupedData:
+          type: "array"
+          nullable: true
+          items:
+            $ref: "#/components/schemas/AggregateFunctionsGroup"
+        currentPageData:
+          type: "array"
+          nullable: true
+          items: {}
+        totalItemCount:
+          type: "integer"
+          format: "int32"
+    AggregateFunctionsGroup:
+      allOf:
+      - $ref: "#/components/schemas/Group"
+      - type: "object"
+        description: "The group aggregation functions and results"
+        additionalProperties: false
+        properties:
+          aggregates:
+            type: "object"
+            nullable: true
+            additionalProperties: {}
+    Group:
+      type: "object"
+      description: "Describes a group"
+      additionalProperties: false
+      properties:
+        hasSubgroups:
+          type: "boolean"
+          description: "Gets a value indicating whether this instance has any sub\
+            \ groups."
+        member:
+          type: "string"
+          description: "The name of the group field"
+          nullable: true
+        itemCount:
+          type: "integer"
+          description: "Gets the number of items in this group."
+          format: "int32"
+        subgroups:
+          type: "array"
+          description: "Gets the subgroups, if HasSubgroups is true, otherwise empty\
+            \ collection."
+          nullable: true
+          items:
+            $ref: "#/components/schemas/IGroup"
+        items:
+          description: "Gets the items in this groups."
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/IEnumerable"
+        key:
+          description: "Gets the key for this group."
+          nullable: true
+    IGroup:
+      type: "object"
+      description: "Describes a group"
+      x-abstract: true
+      additionalProperties: false
+      properties:
+        key:
+          description: "Gets the key for this group."
+          nullable: true
+        items:
+          description: "Gets the items in this groups."
+          nullable: true
+          oneOf:
+          - $ref: "#/components/schemas/IEnumerable"
+        hasSubgroups:
+          type: "boolean"
+          description: "Gets a value indicating whether this instance has sub groups."
+        member:
+          type: "string"
+          description: "The field name of the group"
+          nullable: true
+        itemCount:
+          type: "integer"
+          description: "Gets the Items count."
+          format: "int32"
+        subgroups:
+          type: "array"
+          description: "Gets the subgroups, if HasSubgroups is true, otherwise empty\
+            \ collection."
+          nullable: true
+          items:
+            $ref: "#/components/schemas/IGroup"
+    IEnumerable:
+      type: "object"
+      x-abstract: true
+      additionalProperties: false
+    DatasetODataRowDto:
+      type: "object"
+      additionalProperties: false
+      properties:
+        id:
+          type: "string"
+          nullable: true
+        dataRow:
+          type: "object"
+          nullable: true
+          additionalProperties: {}
+    APIKeysCommand:
+      type: "object"
+      additionalProperties: false
+      properties:
+        productId:
+          type: "string"
+          nullable: true
+        generatePrimaryKey:
+          type: "boolean"
+        generateSecondaryKey:
+          type: "boolean"
