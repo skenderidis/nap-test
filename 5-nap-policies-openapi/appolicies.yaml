@@ -72,7 +72,7 @@ spec:
     template:
       name: POLICY_TEMPLATE_NGINX_BASE
     open-api-files:
-      - link: https://git.f5k8s.net/devsecops/apps/-/raw/main/openapi.yml
+      - link: https://raw.githubusercontent.com/skenderidis/nap-test/main/openapi.yaml
 
 ---
 apiVersion: appprotect.f5.com/v1beta1
@@ -149,7 +149,7 @@ spec:
     template:
       name: POLICY_TEMPLATE_NGINX_BASE
     open-api-files:
-      - link: https://git.f5k8s.net/devsecops/apps/-/raw/main/openapi.yml
+      - link: https://raw.githubusercontent.com/skenderidis/nap-test/main/openapi.yaml
 
 ---
 apiVersion: appprotect.f5.com/v1beta1
@@ -226,7 +226,7 @@ spec:
     template:
       name: POLICY_TEMPLATE_NGINX_BASE
     open-api-files:
-      - link: https://git.f5k8s.net/devsecops/apps/-/raw/main/openapi.yml
+      - link: https://raw.githubusercontent.com/skenderidis/nap-test/main/openapi.yaml
 
 ---
 apiVersion: appprotect.f5.com/v1beta1
@@ -303,7 +303,7 @@ spec:
     template:
       name: POLICY_TEMPLATE_NGINX_BASE
     open-api-files:
-      - link: https://git.f5k8s.net/devsecops/apps/-/raw/main/openapi.yml
+      - link: https://raw.githubusercontent.com/skenderidis/nap-test/main/openapi.yaml
 
 ---
 apiVersion: appprotect.f5.com/v1beta1
@@ -380,6 +380,6 @@ spec:
     template:
       name: POLICY_TEMPLATE_NGINX_BASE
     open-api-files:
-      - link: https://git.f5k8s.net/devsecops/apps/-/raw/main/openapi.yml
+      - link: https://raw.githubusercontent.com/skenderidis/nap-test/main/openapi.yaml
 
 ---

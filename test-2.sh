@@ -115,51 +115,11 @@ while true; do
   sleep 1  
 done
 
-echo "********* Deleting manifests **********"
-
-kubectl delete -f new_app.yaml
-kubectl delete -f new_app_with_nap.yaml
-kubectl delete -f $1
-
-# Sleep for 1 second
-sleep 1  
-
-# Initialize the counter
-delete=0
-FQDN="app1.f5k8s.net"
-
-while true; do
-  # Increment the counter
-  ((delete++))
-
-  # Get the current timestamp in a readable format
-  timestamp=$(date "+%Y-%m-%d %H:%M:%S")
-
-  # Use curl to make a request to the FQDN
-  response=$(curl -iLs $FQDN/ | grep "^HTTP\/")
-
-  # Check the HTTP response code and output success or failure along with the timestamp
-  if [[ "$response" == *404* ]]; then
-    # Log success message
-    echo "$timestamp - $FQDN - *****DELETED**** - ! : $response"
-    break  # Exit the while loop
-  else
-    # Log error code and message
-    echo "$timestamp - $FQDN - Still waiting ... $response "
-  fi
-
-  # Sleep for 1 second
-  sleep 1  
-done
-
-
-
 echo "********* Results **********"
 
 echo "Time to deploy $1 policy with NAP: $initial_deploy seconds" 
 echo "Time to deploy 1 additional Ingress policy: $new_deploy seconds"
 echo "Time to deploy 1 additional Ingress policy with NAP: $new_deploy_with_nap seconds"
-echo "Time to delete all manifests: $delete seconds"
 
 
 

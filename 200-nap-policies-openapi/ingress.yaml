@@ -8,7 +8,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -34,7 +34,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -60,7 +60,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -86,7 +86,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -112,7 +112,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -138,7 +138,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -164,7 +164,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -190,7 +190,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -216,7 +216,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -242,7 +242,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -268,7 +268,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -294,7 +294,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -320,7 +320,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -346,7 +346,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -372,7 +372,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -398,7 +398,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -424,7 +424,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -450,7 +450,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -476,7 +476,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -502,7 +502,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -528,7 +528,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -554,7 +554,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -580,7 +580,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -606,7 +606,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -632,7 +632,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -658,7 +658,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -684,7 +684,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -710,7 +710,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -736,7 +736,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -762,7 +762,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -788,7 +788,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -814,7 +814,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -840,7 +840,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -866,7 +866,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -892,7 +892,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -918,7 +918,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -944,7 +944,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -970,7 +970,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -996,7 +996,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1022,7 +1022,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1048,7 +1048,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1074,7 +1074,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1100,7 +1100,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1126,7 +1126,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1152,7 +1152,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1178,7 +1178,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1204,7 +1204,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1230,7 +1230,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1256,7 +1256,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1282,7 +1282,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1308,7 +1308,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1334,7 +1334,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1360,7 +1360,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1386,7 +1386,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1412,7 +1412,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1438,7 +1438,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1464,7 +1464,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1490,7 +1490,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1516,7 +1516,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1542,7 +1542,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1568,7 +1568,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1594,7 +1594,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1620,7 +1620,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1646,7 +1646,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1672,7 +1672,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1698,7 +1698,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1724,7 +1724,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1750,7 +1750,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1776,7 +1776,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1802,7 +1802,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1828,7 +1828,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1854,7 +1854,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1880,7 +1880,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1906,7 +1906,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1932,7 +1932,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1958,7 +1958,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -1984,7 +1984,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2010,7 +2010,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2036,7 +2036,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2062,7 +2062,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2088,7 +2088,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2114,7 +2114,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2140,7 +2140,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2166,7 +2166,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2192,7 +2192,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2218,7 +2218,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2244,7 +2244,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2270,7 +2270,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2296,7 +2296,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2322,7 +2322,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2348,7 +2348,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2374,7 +2374,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2400,7 +2400,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2426,7 +2426,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2452,7 +2452,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2478,7 +2478,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2504,7 +2504,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2530,7 +2530,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2556,7 +2556,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2582,7 +2582,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2608,7 +2608,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2634,7 +2634,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2660,7 +2660,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2686,7 +2686,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2712,7 +2712,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2738,7 +2738,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2764,7 +2764,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2790,7 +2790,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2816,7 +2816,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2842,7 +2842,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2868,7 +2868,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2894,7 +2894,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2920,7 +2920,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2946,7 +2946,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2972,7 +2972,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -2998,7 +2998,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3024,7 +3024,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3050,7 +3050,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3076,7 +3076,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3102,7 +3102,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3128,7 +3128,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3154,7 +3154,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3180,7 +3180,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3206,7 +3206,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3232,7 +3232,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3258,7 +3258,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3284,7 +3284,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3310,7 +3310,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3336,7 +3336,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3362,7 +3362,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3388,7 +3388,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3414,7 +3414,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3440,7 +3440,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3466,7 +3466,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3492,7 +3492,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3518,7 +3518,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3544,7 +3544,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3570,7 +3570,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3596,7 +3596,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3622,7 +3622,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3648,7 +3648,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3674,7 +3674,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3700,7 +3700,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3726,7 +3726,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3752,7 +3752,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3778,7 +3778,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3804,7 +3804,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3830,7 +3830,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3856,7 +3856,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3882,7 +3882,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3908,7 +3908,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3934,7 +3934,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3960,7 +3960,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -3986,7 +3986,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4012,7 +4012,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4038,7 +4038,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4064,7 +4064,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4090,7 +4090,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4116,7 +4116,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4142,7 +4142,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4168,7 +4168,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4194,7 +4194,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4220,7 +4220,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4246,7 +4246,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4272,7 +4272,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4298,7 +4298,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4324,7 +4324,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4350,7 +4350,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4376,7 +4376,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4402,7 +4402,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4428,7 +4428,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4454,7 +4454,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4480,7 +4480,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4506,7 +4506,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4532,7 +4532,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4558,7 +4558,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4584,7 +4584,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4610,7 +4610,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4636,7 +4636,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4662,7 +4662,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4688,7 +4688,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4714,7 +4714,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4740,7 +4740,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4766,7 +4766,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4792,7 +4792,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4818,7 +4818,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4844,7 +4844,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4870,7 +4870,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4896,7 +4896,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4922,7 +4922,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4948,7 +4948,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -4974,7 +4974,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5000,7 +5000,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5026,7 +5026,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5052,7 +5052,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5078,7 +5078,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5104,7 +5104,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5130,7 +5130,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5156,7 +5156,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:
@@ -5182,7 +5182,7 @@ metadata:
     appprotect.f5.com/app-protect-enable: "True"
     appprotect.f5.com/app-protect-security-log-enable: "True"
     appprotect.f5.com/app-protect-security-log: "logconf"
-    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=10.1.20.20:8515"
+    appprotect.f5.com/app-protect-security-log-destination: "syslog:server=fluentd-svc.fluentd:8515"
 spec:
   ingressClassName: nginx-plus
   rules:

@@ -1,0 +1,33 @@
+apiVersion: appprotect.f5.com/v1beta1
+kind: APPolicy
+metadata:
+  name: app500
+  namespace: apps
+spec:
+  policy:
+    applicationLanguage: utf-8
+    enforcementMode: blocking
+    name: app500
+    template:
+      name: POLICY_TEMPLATE_NGINX_BASE
+
+---
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app500.f5k8s.net
+  namespace: apps
+spec:
+  ingressClassName: nginx-plus
+  rules:
+  - host: app500.f5k8s.net
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app1-svc
+            port:
+              number: 80
